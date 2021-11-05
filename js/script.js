@@ -52,7 +52,7 @@ console.log(membri);
 
     const container = document.querySelector(".team-container");
 
-    for ( let i = 0; i < 6; i++) {
+    for ( let i = 0; i < membri.length; i++) {
         container.innerHTML += `
     <div class="team-card">
          <div class="card-image">
